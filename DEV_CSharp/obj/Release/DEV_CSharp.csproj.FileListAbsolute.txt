@@ -1,0 +1,9 @@
+D:\VOC\DEV_CSharp\DEV_CSharp\bin\Release\DEV_CSharp.exe.config
+D:\VOC\DEV_CSharp\DEV_CSharp\bin\Release\DEV_CSharp.exe
+D:\VOC\DEV_CSharp\DEV_CSharp\bin\Release\DEV_CSharp.pdb
+D:\VOC\DEV_CSharp\DEV_CSharp\obj\Release\DEV_CSharp.csprojResolveAssemblyReference.cache
+D:\VOC\DEV_CSharp\DEV_CSharp\obj\Release\DEV_CSharp.frrMain.resources
+D:\VOC\DEV_CSharp\DEV_CSharp\obj\Release\DEV_CSharp.Properties.Resources.resources
+D:\VOC\DEV_CSharp\DEV_CSharp\obj\Release\DEV_CSharp.csproj.GenerateResource.Cache
+D:\VOC\DEV_CSharp\DEV_CSharp\obj\Release\DEV_CSharp.exe
+D:\VOC\DEV_CSharp\DEV_CSharp\obj\Release\DEV_CSharp.pdb
