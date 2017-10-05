@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Net.Mail;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
 
 namespace DEV_CSharp
 {
@@ -301,6 +304,22 @@ namespace DEV_CSharp
             }
 
             return results;
+        }
+        public static void PrintScreen()
+        {
+            try
+            {
+                Bitmap bitmap = new Bitmap(Screen.PrimaryScreen.Bounds.Width,
+                                        Screen.PrimaryScreen.Bounds.Height);
+                Graphics graphics = Graphics.FromImage(bitmap as Image);
+                graphics.CopyFromScreen(0, 0, 0, 0, bitmap.Size);
+                var date = DateTime.Now.ToString("MMddyyHmmss");
+                bitmap.Save(@"D:\Temp\Images\" + date + ".jpg", ImageFormat.Jpeg);
+            }
+            catch
+            {
+
+            }
         }
     }
 }

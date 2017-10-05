@@ -6,4 +6,3 @@ D:\VOC\DEV_CSharp\DEV_CSharp\bin\Debug\DEV_CSharp.exe
 D:\VOC\DEV_CSharp\DEV_CSharp\bin\Debug\DEV_CSharp.pdb
 D:\VOC\DEV_CSharp\DEV_CSharp\obj\Debug\DEV_CSharp.exe
 D:\VOC\DEV_CSharp\DEV_CSharp\obj\Debug\DEV_CSharp.pdb
-D:\VOC\DEV_CSharp\DEV_CSharp\obj\Debug\DEV_CSharp.csprojResolveAssemblyReference.cache
