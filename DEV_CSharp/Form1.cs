@@ -15,6 +15,10 @@ namespace DEV_CSharp
     {
         string filePath = @"D:\test.txt";
         string file;
+        private SystemSetting setting;
+        private string username = string.Empty;
+        private string password = string.Empty;
+        string pathConfig = Application.StartupPath + "\\config.xml";
         public frrMain()
         {
             InitializeComponent();
@@ -24,7 +28,7 @@ namespace DEV_CSharp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            List<string> lines = Common.ReadTextFile(filePath,1,20);
+            List<string> lines = Common.ReadTextFile(filePath, 1, 20);
             long count = Common.counterlineTextfile(filePath);
             string temp = Common.Search(filePath, "temp");
             string content = "abc" + Environment.NewLine;
@@ -111,6 +115,24 @@ namespace DEV_CSharp
         private void button4_Click(object sender, EventArgs e)
         {
             List<string> result = Common.findEmail(filePath);
+        }
+
+        private void frrMain_Load(object sender, EventArgs e)
+        {
+            if (!File.Exists(pathConfig))
+            {
+                SaveInitSystem();
+            }
+            SystemSetting.ReadXML<SystemSetting>(out setting, pathConfig);
+            this.username = setting._username;
+            this.password = setting._password;
+        }
+        public void SaveInitSystem()
+        {
+            setting = new SystemSetting();
+            setting._username = "admin";
+            setting._password = "1111";
+            SystemSetting.WriteXML<SystemSetting>(this.setting, pathConfig);
         }
     }
 }

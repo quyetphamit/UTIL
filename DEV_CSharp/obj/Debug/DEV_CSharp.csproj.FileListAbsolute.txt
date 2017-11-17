@@ -6,3 +6,12 @@ D:\VOC\DEV_CSharp\DEV_CSharp\bin\Debug\DEV_CSharp.exe
 D:\VOC\DEV_CSharp\DEV_CSharp\bin\Debug\DEV_CSharp.pdb
 D:\VOC\DEV_CSharp\DEV_CSharp\obj\Debug\DEV_CSharp.exe
 D:\VOC\DEV_CSharp\DEV_CSharp\obj\Debug\DEV_CSharp.pdb
+C:\Users\u23702\Desktop\UTIL\DEV_CSharp\bin\Debug\DEV_CSharp.exe.config
+C:\Users\u23702\Desktop\UTIL\DEV_CSharp\obj\Debug\DEV_CSharp.exe
+C:\Users\u23702\Desktop\UTIL\DEV_CSharp\obj\Debug\DEV_CSharp.pdb
+C:\Users\u23702\Desktop\UTIL\DEV_CSharp\bin\Debug\DEV_CSharp.exe
+C:\Users\u23702\Desktop\UTIL\DEV_CSharp\bin\Debug\DEV_CSharp.pdb
+C:\Users\u23702\Desktop\UTIL\DEV_CSharp\obj\Debug\DEV_CSharp.csprojResolveAssemblyReference.cache
+C:\Users\u23702\Desktop\UTIL\DEV_CSharp\obj\Debug\DEV_CSharp.frrMain.resources
+C:\Users\u23702\Desktop\UTIL\DEV_CSharp\obj\Debug\DEV_CSharp.Properties.Resources.resources
+C:\Users\u23702\Desktop\UTIL\DEV_CSharp\obj\Debug\DEV_CSharp.csproj.GenerateResource.Cache
